@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use or adapt this software, please cite it as below."
+title: "AI Traffic Congestion Detection and Adaptive Signal Control"
+authors:
+  - family-names: Mohurle
+    given-names: Abhinav Nitin
+version: 0.1.0
+type: software
+license: MIT
+repository-code: "https://github.com/Aaabhi0406/adaptive-traffic-signal-control"
+abstract: >-
+  Research prototype combining YOLOv8 vehicle detection, DeepSORT tracking,
+  class-weighted traffic-demand estimation, Random Forest short-horizon
+  forecasting, adaptive intersection control, and SUMO controller ablations.
+  Experiments are exploratory and do not represent live-road deployment or
+  an end-to-end real-world four-camera validation.

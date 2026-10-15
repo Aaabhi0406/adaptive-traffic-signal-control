@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Model weights and local model caches
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Video data (supply licensed files locally; do not commit large clips)
+/videos/*
+!videos/.gitkeep
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated SUMO routes / logs / results; keep curated research CSVs tracked
+sumo_env/*.rou.xml
+sumo_env/*.tripinfo.xml
+sumo_env/*.xml.tmp
+*.sumocfg.tmp
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

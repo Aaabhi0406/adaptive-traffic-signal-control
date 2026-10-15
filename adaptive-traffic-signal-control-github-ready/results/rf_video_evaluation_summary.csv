@@ -1,0 +1,5 @@
+clip,csv,subset,n,RF_MAE,RF_RMSE,RF_R2,EMA_MAE,EMA_RMSE,EMA_R2,MAE_change_pct_RF_vs_EMA,RMSE_change_pct_RF_vs_EMA,actual_mean,actual_sd_sample,RF_interval_coverage_pct,RF_interval_width_mean
+Video 1 (50 FPS),rf_eval_with_ema.csv,Trained,151,1.934499,2.481866,-0.330740,2.311254,2.798166,-0.691546,-16.300910,-11.303853,32.980132,2.158611,70.198675,5.444272
+Video 1 (50 FPS),rf_eval_with_ema.csv,Full matched sample,285,1.848141,2.331975,-0.173247,2.083901,2.544653,-0.397008,-11.313397,-8.357843,32.169825,2.156713,,
+Video 2 (60 FPS),rf_eval_video2.csv,Trained,151,1.128405,1.410566,-0.333110,1.177459,1.433465,-0.376745,-4.166084,-1.597462,14.311258,1.225754,56.953642,2.401168
+Video 2 (60 FPS),rf_eval_video2.csv,Full matched sample,285,1.342997,1.652524,0.176252,1.342863,1.647994,0.180762,0.009959,0.274898,13.838246,1.823954,,
